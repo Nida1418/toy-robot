@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Toy Robot</title>
+    </head>
+    <body style="text-align: center;">
+        <script src="Robot.js"></script>
+         <textarea id="commandTxt" rows="10" columns="50" placeholder="Enter command(s)" style="width: 150px;"></textarea>
+         <br />
+         <button id="commandBtn" type="button">Issue Command</button>
+         <br />
+         <div id="reportDiv"></div>
+         <script>
+             document.getElementById('commandBtn').onclick = function () { 
+                document.getElementById('reportDiv').innerHTML = ''; 
+                robot.issueCommand(document.getElementById('commandTxt').value);
+             };
+         </script>        
+    </body>
+</html>
