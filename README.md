@@ -3,13 +3,13 @@ Instructions
 
 - To launch the application, open index.html file in a browser (or host the files on a web server and access the index.html using a url)
 - Enter the desired sequence of commands in the text area (each command in the sequence should be in a new line)
-e.g. 
-PLACE 1,2,EAST
-MOVE
-MOVE
-LEFT
-MOVE
-REPORT
+e.g.   
+PLACE 1,2,EAST  
+MOVE  
+MOVE  
+LEFT  
+MOVE  
+REPORT  
 
 - To issue the commands, hit "Issue Command" button
 - Results of any "REPORT" command in the supplied sequence will appear below the "Issue Command" button
